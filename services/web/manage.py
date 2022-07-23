@@ -16,7 +16,7 @@ def create_db():
 
 @cli.command("seed_db")
 def seed_db():
-    db.session.add(UrlMapper(url="https://www.tech.gov.sg/", url_reference="govtech"))
+    db.session.add(UrlMapper(url="https://www.google.com/", url_reference="google"))
     db.session.commit()
 
 
