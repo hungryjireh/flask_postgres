@@ -1,0 +1,8 @@
+.DS_Store
+.env.dev
+.env.dev.db
+
+.env.prod
+.env.prod.db
+
+__pycache__/
